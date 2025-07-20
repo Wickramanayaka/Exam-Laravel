@@ -39,8 +39,8 @@ Follow these instructions to set up the project locally for development or testi
 
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/your-username/open-school-management-system.git
-   cd open-school-management-system
+   git clone https://github.com/Wickramanayaka/Exam-Laravel.git
+   cd Exam-Laravel
    ```
 
 2. **Install dependencies:**
