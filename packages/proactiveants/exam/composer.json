@@ -1,0 +1,29 @@
+{
+    "name": "proactiveants/exam",
+    "description": "The exam package for EDU.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamal Ayesh Wickramanayaka",
+            "email": "chamal.aw@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ProactiveAnts\\Exam\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProactiveAnts\\Exam\\ExamServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,15 @@
+.required::after{
+    content: " *";
+    color: red;
+}
+.orange-text{
+    color: #FAB92C;
+}
+.orange-bg{
+    background-color: #FAB92C;
+}
+.btn-orange {
+    color: #000;
+    background-color:  #FAB92C;
+    border-color:  #FAB92C;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "proactiveants/cashier",
+    "description": "Cashier package for EDU project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamal Ayesh Wickramanayaka",
+            "email": "chamal.aw@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ProactiveAnts\\Cashier\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProactiveAnts\\Cashier\\CashierServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require": {}
+}

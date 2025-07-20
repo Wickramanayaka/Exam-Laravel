@@ -1,0 +1,29 @@
+{
+    "name": "proactiveants/store",
+    "description": "The bookstore package for EDU.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamal Ayesh Wickramanayaka",
+            "email": "chamal.aw@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ProactiveAnts\\Store\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProactiveAnts\\Store\\StoreServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require": {}
+}
